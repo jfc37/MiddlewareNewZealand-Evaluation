@@ -1,0 +1,17 @@
+{
+  "name": "middleware-evaluation",
+  "version": "1.0.0",
+  "description": "API to transform static xml to json and return",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & npm run swagger",
+    "swagger": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JoeChapman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
