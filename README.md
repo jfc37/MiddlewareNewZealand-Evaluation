@@ -6,6 +6,8 @@
 npm install
 npm start
 ```
+The API will be available at http://localhost:3001
+SwaggerUI will be available at http://localhost:3002
 
 ## Running the tests
 
@@ -13,8 +15,6 @@ npm start
 npm test
 ```
 
-The API will be available at http://localhost:3001
-SwaggerUI will be available at http://localhost:3002
 
 ## Running thoughts
 
@@ -25,12 +25,14 @@ SwaggerUI will be available at http://localhost:3002
    `https://raw.githubusercontent.com/MiddlewareNewZealand/evaluation-instructions/main`
 
 2. Jot down the general flow that the API needs to follow
+```
    // If valid endpoint
    // Call XML API
    // If call results in error, return nice error
    // If call results in 404, return 404
    // Transform xml to json
    // Return json in response
+```
 
 3. Convert each comment as a higher level function, write unit tests while filling out the implementation of each
 
