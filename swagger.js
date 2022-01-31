@@ -10,11 +10,11 @@ var options = {
     urls: [
       {
         url: "swagger/openapi-companies.yaml",
-        name: "Target",
+        name: "MWNZ companies",
       },
       {
         url: "swagger/openapi-xml.yaml",
-        name: "XML to transform",
+        name: "MWNZ companies source XML",
       },
     ],
   },
@@ -26,5 +26,5 @@ app.use("/", swaggerUi.serve, swaggerUi.setup(null, options));
 var port = process.env.PORT || 3002;
 
 app.listen(port, function () {
-  console.log("Server running at http://localhost:" + port + "/");
+  console.log("Swagger running at http://localhost:" + port + "/");
 });
